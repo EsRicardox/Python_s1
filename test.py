@@ -15,7 +15,7 @@ while True:
 1.Suma
 2.Resta
 3.Multiplicacion
-4.Division
+4.Division8
 5.Division exacta
 6.Potencia
 7.Apagar calculadora""")
