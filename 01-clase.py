@@ -17,3 +17,16 @@ print("Mi IMC es de: ",imc,"\n")
 print("Mi IMC es de: {:.2f}".format(imc),"\n")
 
 print("\n","\n","\n")
+
+##funciones propias de python
+
+#string() -
+#int()    -numeros enteros
+#float()  -numeros decimales
+#len()    -
+#type()   -
+#conunt() -buscador de info en codigo
+
+##fin de la lista
+
+
