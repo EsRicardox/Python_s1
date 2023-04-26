@@ -23,10 +23,63 @@ print("\n","\n","\n")
 #string() -
 #int()    -numeros enteros
 #float()  -numeros decimales
-#len()    -
+#len()    -lee la cantidad de items en un lista
 #type()   -
+#count() -busca la cantidad de palabras iguales en una lista
 #conunt() -buscador de info en codigo
+#range("numero") - la lista la carga desde el 0 hasta el numero asignado
+#range("num1,num2") la lista inicia en el num1 y termina en el num2
+###
+# data_asig = [10023,"programacion",1,True]
+# cod,ramo,semestre,estado = data_asig
+###
 
 ##fin de la lista
 
+
+nueva_lista = list()
+otra_lista = []
+print ("Esta es una lista vacia :",nueva_lista)
+print ("Esta es otra lista vacia :",otra_lista)
+
+### diccionarios ###
+
+diccionario1 = dict()
+diccionario2 = {}
+datos_personales = {
+    "nombre":"ricardo",
+    "Intitucion":"Ulagos",
+    "Edad":18
+}
+
+print(datos_personales)
+
+### dato agregado ###
+
+datos_personales = {
+    "nombre":"ricardo",
+    "Intitucion":"Ulagos",
+    "Edad":18,
+    "Asisgnatira":{"Estructira de Datos","Programacion"}
+}
+
+print("Diccionario Inicial: ",datos_personales)
+
+### llamando un dato con su clave ###
+
+print(len(datos_personales))
+print(datos_personales["Intitucion"])
+
+### Actualizando listas ###
+
+datos_personales["Asisgnatira"] = "USS"
+print("Direccion actualizado 1 ",datos_personales)
+
+datos_personales["Ciudad"] = "Osorno"
+print("Direccion Actualizada 2 ",datos_personales)
+
+### eliminar un dato del diccionario ###
+
+del datos_personales["Ciudad"]
+print("Direccion Actualizada 3 ",datos_personales)
 
