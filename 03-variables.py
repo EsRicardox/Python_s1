@@ -17,3 +17,4 @@ print("El numero complejo es: ",c2)
 print(c2.real)
 print(c2.imag)
 
+print("hola" * 5)
